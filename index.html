@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <title>Frontend Mentor | Profile card component</title>
 
-  80K
-  Followers
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
 
-  803K
-  Likes
+    <div class="card">
+      <div class="card-header">
+        <img class="profile-banner" src="./images/bg-pattern-card.svg" alt="">
+      </div>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <div class="card-body">
+        <img class="profile-avatar" src="./images/image-victor.jpg" alt="Victor Crest">
+        <span>
+          <strong class="profile-name">Victor Crest</strong>
+          <span class="profile-age">26</span>
+        </span>
+        <span class="profile-city">London</span>
+      </div>
+
+      <div class="card-footer">
+        <ul class="profile-stats">
+          <li class="profile-stats-item">
+            <strong class="profile-stats-text">80K</strong>
+            <span class="profile-stats-label">Followers</span>
+          </li>
+          <li class="profile-stats-item">
+            <strong class="profile-stats-text">803K</strong>
+            <span class="profile-stats-label">Likes</span>
+          </li>
+          <li class="profile-stats-item">
+            <strong class="profile-stats-text">1.4K</strong>
+            <span class="profile-stats-label">Photos</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </body>
 </html>

@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow-x: hidden;
+  background: url('../images/bg-pattern-top.svg') no-repeat, url('../images/bg-pattern-bottom.svg') no-repeat, var(--body-bg);
+  background-clip: border-box, border-box;
+  background-position: bottom 57vh right 44vw, top 53vh left 43vw;
+  background-size: cover;
+}
+
+@media (min-width: 1400px) {
+
+  body {
+    background-position: bottom 35vh right 52vw, top 52vh left 48vw;
+    background-size: auto;
+  }
+
+}

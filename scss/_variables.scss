@@ -1,0 +1,58 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+:root {
+
+  // Color system
+
+  --dark-cyan:                   hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue:  hsl(229, 23%, 23%);
+  --dark-grayish-blue:           hsl(227, 10%, 46%);
+  --dark-gray:                   hsl(0 0% 59%);
+  --white:                       #fff;
+
+  // Body
+  //
+  // Settings for the `<body>` element.
+
+  --body-bg:                     var(--dark-cyan);
+  --body-color:                  var(--dark-grayish-blue);
+
+
+  // Paragraphs
+  //
+  // Style p element.
+
+  --paragraph-margin-bottom:     1rem;
+
+
+  // Typography
+  //
+  // Font, line-height, and color for body text, headings, and more.
+
+  --font-family-base:            'Kumbh Sans', sans-serif;
+  --font-size-base:              1rem; // Assumes the browser default, typically `16px`
+
+  --font-weight-normal:          400;
+  --font-weight-bold:            700;
+
+  --font-weight-base:            var(--font-weight-normal);
+
+  --line-height-base:            1.5;
+
+  --headings-font-weight:        var(--font-weight-bold);
+  --headings-line-height:        1.15;
+  --headings-margin-bottom:      .5rem;
+
+
+  // Cards
+
+  --card-max-width:              350px;
+  --card-spacer-y:               1.25rem;
+  --card-spacer-x:               1.75rem;
+  --card-border-radius:          1rem;
+  --card-bg:                     var(--white);
+
+}
